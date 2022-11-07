@@ -13,16 +13,24 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center justify-center px-10 text-center border-red-700 border-4">
         <div className="hero-container flex flex-1 w-full border-violet-700 border-4 relative">
           <div className="foreground-overlay-text flex flex-col flex-wrap items-center sm:w-full border-blue-700 border-4 z-10 w-full h-full absolute top-0 left-0 border-slate-700 border-4 pt-64">
-            <h1 className="heading-1">Insurance for the people</h1>{' '}
-            <h2 className="heading-2">Find a plan for</h2>
+            <h1 className="heading-1">Clothing for the every woman</h1>{' '}
+            <h2 className="heading-2">Find help for</h2>
             <div className="pills-container flex gap-2 flex-wrap">
               <button flex-1 border-violet-700 border-2>
-                Dental
+                Business
               </button>
-              <button flex-1>Vision</button>
-              <button flex-1>Accident</button>
-              <button flex-1>Life</button>
-              <button flex-1>Disability</button>
+              <button flex-1 border-violet-700 border-2>
+                Formal
+              </button>
+              <button flex-1 border-violet-700 border-2>
+                Casual
+              </button>
+              <button flex-1 border-violet-700 border-2>
+                Activewear
+              </button>
+              <button flex-1 border-violet-700 border-2>
+                Underwear
+              </button>
             </div>
           </div>
           <div className="two-column-background-hero-images grid gap-80 grid-cols-2 grid-rows-1 z-0 w-full h-full absolute top-0 left-0 flex-1">
